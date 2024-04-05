@@ -1,8 +1,8 @@
-#include <boost/asio.hpp>
-#include <spdlog/spdlog.h>
+#include <cstdlib>
+#include <iostream>
 
 int main(void)
 {
-        spdlog::warn("Hello, World!");
+        std::cout << "Hello, World\n";
         return EXIT_SUCCESS;
 }
