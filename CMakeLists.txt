@@ -11,4 +11,5 @@ set(CMAKE_CXX_COMPILER "clang++")
 # find_package(spdlog REQUIRED)
 
 add_executable(${PROJECT_NAME} src/main.cpp)
-target_link_libraries(${PROJECT_NAME} spdlog::spdlog Boost::boost)
+# use this to link to the executable
+# target_link_libaries(${PROJECT_NAME} spdlog::spdlog)
